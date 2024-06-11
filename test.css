@@ -1,0 +1,109 @@
+/* Основной стиль для всего тела страницы */
+.body {
+    font-family: 'Inter', sans-serif;
+    background-color: #DEDDD9;
+    color: #474644;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+    .btns{
+        display: flex;
+        margin: 10px;
+    }
+    /* Стиль заголовка */
+    .title {
+    color: #474644;
+    font-size: 3em;
+    margin-bottom: 20px;
+    }
+    
+    /* Стиль для кнопок */
+    .btn {
+    background-color: #235697;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+    transition: background-color 0.3s ease;
+    }
+    
+    /* Стиль для маленьких кнопок */
+    .btn-small {
+    background-color: #474644;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+    }
+    
+    /* Стиль при наведении на кнопку */
+    .btn:hover {
+    background-color: #1C456E;
+    }
+    
+    .btn-small:hover {
+    background-color: #757371;
+    }
+    
+    /* Стили для списка книг */
+    .book-list {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    }
+    
+    .book-item {
+    background-color: #DEDDD9;
+    border-bottom: 1.5px solid #edd2ac;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .book__info{
+        display: flex;
+        font-size: 18px;
+    }
+    .book-title {
+    font-weight: 700;
+    color: #474644;
+    margin-right: 10px;
+    }
+    
+    .book-author {
+    font-style: italic;
+    color: #474644;
+    }
+    
+    @media(max-width: 600px) {
+    .title {
+    font-size: 2em;
+    }
+    
+    .btn, .btn-small {
+    padding: 8px 16px;
+    font-size: 0.9em;
+    }
+    
+    .book-item {
+    padding: 8px;
+    }
+    }
+
+    a {
+        color: #0056D2;
+        text-decoration: none;
+        }
+    .header{
+        position: absolute;
+        padding-right: 15px;
+        right: 0;
+    }

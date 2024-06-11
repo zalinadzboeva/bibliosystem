@@ -1,0 +1,91 @@
+/* Основной стиль для всего тела страницы */
+.body {
+    font-family: 'Inter', sans-serif;
+    background-color: #DEDDD9;
+    color: #474644;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+    
+    /* Стиль контейнера */
+    .container {
+    background-color: #F8F8F8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    }
+    .user{
+        border: solid 30px #235697;
+    }
+    /* Стиль заголовка книги */
+    .book-title .owner-title {
+    color: #235697;
+    font-size: 30px;
+    margin-bottom: 20px;
+    }
+    
+    /* Стиль автора книги */
+    .book-author {
+    font-size: 20px;
+    color: #474644;
+    margin-bottom: 20px;
+    }
+    
+    /* Стиль описания книги */
+    .book-description {
+    font-size: 16px;
+    color: #555555;
+    margin-bottom: 20px;
+    }
+    
+    /* Стиль для кнопок */
+    .btn {
+    background-color: #235697;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 5px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    }
+    
+    /* Стиль для вторичной кнопки */
+    .btn-secondary {
+    background-color: #474644;
+    color: #fff;
+    }
+    
+    .btn:hover {
+    background-color: #1C456E;
+    }
+    
+    .btn-secondary:hover {
+    background-color: #363531;
+    }
+    .owner-info {
+        font-size: 16px;
+        color:  #235697;
+        margin-bottom: 20px;
+        }
+    .info{
+        font-size: 16px;
+    }
+    /* Адаптивные стили для мобильных устройств */
+   @media(max-width: 600px)  {
+    .book-title {
+    font-size: 2em;
+    }
+    
+    .btn {
+    padding: 8px 16px;
+    font-size: 0.9em;
+    }
+    }
