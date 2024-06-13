@@ -17,5 +17,3 @@ description TEXT NOT NULL,
 user_id INT,
 FOREIGN KEY (user_id) REFERENCES users(id)
 );
-
-cardscards
