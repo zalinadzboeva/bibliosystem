@@ -1,4 +1,4 @@
-CREATE IF NOT EXISTS DATABASE book_exchange;
+CREATE DATABASE book_exchange;
 USE book_exchange;
 
 CREATE TABLE users (
@@ -17,4 +17,3 @@ description TEXT NOT NULL,
 user_id INT,
 FOREIGN KEY (user_id) REFERENCES users(id)
 );
-INSERT INTO books(id, title, author, description, user_id) VALUES ('1','dfvdlkn','fklbn','vfvndfndfn','1')
