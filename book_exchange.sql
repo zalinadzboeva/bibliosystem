@@ -17,3 +17,4 @@ description TEXT NOT NULL,
 user_id INT,
 FOREIGN KEY (user_id) REFERENCES users(id)
 );
+INSERT INTO books(id, title, author, description, user_id) VALUES ('1','dfvdlkn','fklbn','vfvndfndfn','1')
