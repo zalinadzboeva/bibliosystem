@@ -1,4 +1,4 @@
-CREATE DATABASE book_exchange;
+CREATE IF NOT EXISTS DATABASE book_exchange;
 USE book_exchange;
 
 CREATE TABLE users (
@@ -17,3 +17,5 @@ description TEXT NOT NULL,
 user_id INT,
 FOREIGN KEY (user_id) REFERENCES users(id)
 );
+
+cardscards
